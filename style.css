@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.location, .temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature { flex-direction: column; }
+.temperature-section { display: flex; align-items: center; cursor: pointer; }
+.temperature-section h2 { font-size: 40px; }
+.temperature-section span { font-size: 30px; margin: 10px; }
+#temperature-description { font-size: 20px; }
+.footer { margin-top: 50px; }
